@@ -35,7 +35,7 @@ export const StyledNav = styled.nav`
 
 export const StyledLogoWrapper = styled.div`
   width: ${({ hasDeclardeWith }) => (hasDeclardeWith ? `${hasDeclardeWith}px` : "auto")};
-  height: 38.5px;
+  height: 38px;
   margin-top: 10px;
   > h1 {
     text-indent: -9999em;
@@ -49,7 +49,7 @@ export const StyledButton = styled.button`
   width: ${({ hasDeclardeWith }) => (hasDeclardeWith ? `${hasDeclardeWith}px` : "auto")};
   margin-right: ${({ hasMarginRight }) => (hasMarginRight ? `${hasMarginRight}` : null)};
   display: block;
-  height: 38.5px;
+  height: 38px;
   color: ${({ theme }) => theme.colors.midBlack};
   font-size: 14px;
   line-height: 2.6em;

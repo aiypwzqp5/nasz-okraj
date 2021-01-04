@@ -20,7 +20,7 @@ export const StyledContactHeaderText = styled.h1`
   color: ${({ theme }) => theme.colors.fullBlack};
   text-align: center;
   position: relative;
-  padding-bottom: 15.5px;
+  padding-bottom: 15px;
   font-family: "MulishExtraBold";
   font-weight: ${({ theme }) => theme.fontWeight.lx};
   @media (max-width: ${({ theme }) => theme.device.m}) {
@@ -49,7 +49,7 @@ export const StyledContactInfoH3 = styled.h3`
   font-weight: normal;
   color: ${({ theme }) => theme.colors.gray};
   text-align: center;
-  padding-top: 15.5px;
+  padding-top: 15px;
   @media (max-width: ${({ theme }) => theme.device.m}) {
     font-size: 20px;
     text-align: left;

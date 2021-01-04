@@ -5,7 +5,7 @@ export const StyledHamburger = styled.button`
   background-color: transparent;
   border: 0;
   z-index: 999;
-  height: 16.1px;
+  height: 16px;
   position: absolute;
   right: 33px;
   top: 40px;
@@ -22,8 +22,8 @@ export const StyledHamburgerBox = styled.span`
   position: relative;
   display: inline-block;
   > span {
-    width: 19.1px;
-    height: 2.3px;
+    width: 19px;
+    height: 2px;
     position: absolute;
     top: 50%;
     right: 0;
@@ -33,11 +33,11 @@ export const StyledHamburgerBox = styled.span`
     &::after {
       content: "";
       width: 27px;
-      height: 2.3px;
+      height: 2px;
       position: absolute;
       right: 0;
       background-color: ${({ theme }) => theme.colors.black};
-      top: 7.1px;
+      top: 7px;
       border-radius: 10px;
       transform: ${({ openMenu }) => (openMenu ? "translateY(-7px) rotate(45deg)" : null)};
       transition: transform 250ms;
@@ -45,11 +45,11 @@ export const StyledHamburgerBox = styled.span`
     &::before {
       content: "";
       width: 27px;
-      height: 2.3px;
+      height: 2px;
       position: absolute;
       right: 0;
       background-color: ${({ theme }) => theme.colors.black};
-      top: -7.1px;
+      top: -7px;
       border-radius: 10px;
       transform: ${({ openMenu }) => (openMenu ? "translateY(7px) rotate(-45deg)" : null)};
       transition: transform 250ms;

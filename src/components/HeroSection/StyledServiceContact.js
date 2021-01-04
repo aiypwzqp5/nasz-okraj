@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { ImPhone } from "@react-icons/all-files/im/ImPhone";
 
 export const StyledPhoneIcon = styled(ImPhone)`
-  width: 19.3px;
-  height: 19.3px;
+  width: 19px;
+  height: 19px;
   transform: translate(-10px, 3px);
 
   @media (max-width: ${({ theme }) => theme.device.m}) {

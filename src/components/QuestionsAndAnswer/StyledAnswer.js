@@ -36,7 +36,7 @@ export const StyledChevronIcon = styled(FaChevronUp)`
   width: 27px;
   height: 27px;
   font-size: 27px;
-  margin-right: 19.8px;
+  margin-right: 20px;
   color: ${({ theme }) => theme.colors.darkOrange};
   transform: ${({ animate }) => (animate ? "rotate(-180deg)" : "rotate(0)")};
   transition: transform 250ms ease-in-out;
