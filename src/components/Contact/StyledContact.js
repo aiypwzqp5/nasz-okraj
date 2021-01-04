@@ -116,6 +116,12 @@ export const StyledContactList = styled.ul`
     &:nth-child(7) {
       margin-bottom: 8px;
     }
+
+    > a {
+      text-decoration: none;
+      color: ${({ theme }) => theme.colors.fullBlack};
+      cursor: pointer;
+    }
   }
 `;
 

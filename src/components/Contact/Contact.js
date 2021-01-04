@@ -45,17 +45,29 @@ const Contact = React.forwardRef((props, ref) => {
             <li>15-000</li>
             <li>Radek</li>
             <li>
-              <StyledIconLi src={iconEmail} /> <span>serwis@naszokraj.eu</span>
+              <StyledIconLi src={iconEmail} />
+              <a href="mailto:serwis@naszokraj.eu">
+                <span>serwis@naszokraj.eu</span>
+              </a>
             </li>
             <li>
-              <StyledIconLi src={iconPhone} has={true} /> <span>+48 509 411 729</span>
+              <StyledIconLi src={iconPhone} has={true} />{" "}
+              <a href="tel:+48 509 411 729">
+                <span>+48 509 411 729</span>
+              </a>
             </li>
             <li>Lidka</li>
             <li>
-              <StyledIconLi src={iconEmail} /> <span>prezes@naszokraj.eu</span>
+              <StyledIconLi src={iconEmail} />
+              <a href="mailto:prezes@naszokraj.eu ">
+                <span>prezes@naszokraj.eu</span>
+              </a>
             </li>
             <li>
-              <StyledIconLi src={iconPhone} has={true} /> <span>+48 508 563 321</span>
+              <StyledIconLi src={iconPhone} has={true} />{" "}
+              <a href="tel:+48 509 411 729">
+                <span>+48 509 411 729</span>
+              </a>
             </li>
           </StyledContactList>
         </StyledTextWrapper>
