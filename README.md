@@ -4,7 +4,7 @@ Project made for my portfolio: Albert Strzyżewski (at the moment still under co
 
 ## Repo:
 
-https://gitlab.com/aiypwzqp/nasz-okraj
+https://github.com/aiypwzqp5/nasz-okraj
 
 ## You can see my website here:
 
